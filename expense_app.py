@@ -60,7 +60,7 @@ if selected=="Data Visualization":
         period=st.selectbox("select period:",["2022_March"])
         submitted=st.form_submit_button("Plot Period")
         if submitted:
-            comment:"Some comment"
+            comment="Some comment"
             incomes={'Salary':1500,'Blog':50, 'Other Incomes':10}
             expenses={'Rent':600,'Utilities':200,'Groceries':300,'Car':100,'Other Expenses':50,'Saving':10}
 
