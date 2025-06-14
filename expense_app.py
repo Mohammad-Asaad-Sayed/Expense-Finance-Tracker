@@ -45,7 +45,7 @@ if selected=="Data Entry":
             comment=st.text_area("",placeholder="Enter a comment here....")
 
         "___"
-        submitted=st.form_submit_button("Submit")
+        submitted=st.form_submit_button("Save data")
         if submitted:
             period=str(st.session_state["year"])+"_"+str(st.session_state["month"])
             incomes={income:st.session_state[income] for income in incomes}
